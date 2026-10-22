@@ -117,7 +117,7 @@ cuda_image = (
 )
 @modal.concurrent(max_inputs=100)
 @modal.web_server(port=7860, startup_timeout=786)
-def ui():
+def ui_web():
     """Starts the WanGP Gradio server inside the container on port 7860."""
     os.chdir("/workspace")
     os.makedirs("/kaggle/tmp", exist_ok=True)
