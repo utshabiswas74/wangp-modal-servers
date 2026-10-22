@@ -19,7 +19,7 @@ if sys.platform == "win32":
 # 1. Configuration & App Setup
 # ─────────────────────────────────────────────────────────────────────────────
 
-APP_NAME = "wangp"
+APP_NAME = "wangp-modal-servers"
 app = modal.App(APP_NAME)
 
 # Choose default GPU: "A100" (40GB), "A100-80GB", "A10G" (24GB), "H100", or "A100:2"
